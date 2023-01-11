@@ -1,0 +1,80 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" href="ordersUpdate.css">
+<title>Order Update</title>
+</head>
+<body>
+
+<p><marquee><h2><i>New Fashion</i></h2></marquee>
+<h1><center><u><i> Orders</i></u></center></h1></p>
+
+<td><a href="admin.html"><button type="button" class="update">Back</button></a></td>
+
+<br>
+<br>
+
+<table border=1>
+
+<tr>
+
+<td><font><b>Tracking No</b></font></td>
+
+<td><font><b>Orders Status</b></font></td>
+<td><font><b>Action</b></font></td>
+
+
+
+
+</tr>
+
+<%@page import="java.sql.DriverManager"%>
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%
+
+try{
+		Class.forName("com.mysql.jdbc.Driver");
+	Connection con= DriverManager.getConnection("jdbc:mysql://localhost/newfashion?user=abhishek&password=abhishek");
+	Statement st=con.createStatement();
+	ResultSet r= st.executeQuery("select * from vieworder");
+	while(r.next()){
+		String trackingno=r.getString("trackingno");
+		%>
+			
+			
+		<center>
+		
+		
+		<tr>
+		            <td><%=r.getString("trackingno") %></td>
+		           
+		            <td><%=r.getString("orderstatus") %></td>
+		            <td><a href="orderUpdateProcess.jsp?trackingno=<%=r.getString("trackingno") %>"><button type="button" class="update">Update</button></a></td>
+		             <td><a href="orderRemove.jsp?trackingno=<%=r.getString("trackingno") %>"><button type="button" class="update">Remove</button></a></td>
+		            
+		            
+		</tr>
+		
+		</center>
+		<%
+				
+	}
+	
+	
+}catch (Exception e){
+	out.println(e);
+		
+}
+
+
+
+%>
+
+</table>
+</body>
+</html>

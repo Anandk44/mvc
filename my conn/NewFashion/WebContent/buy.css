@@ -1,0 +1,53 @@
+body {
+
+  background-image: url('orderstatus.jpg');
+  
+  background-color: #5ca369;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+   
+   
+input[type=button]{
+	 background-color: #008080;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 12px;
+}
+
+
+input[type=submit]{
+	 background-color: green;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 13px;
+}
+
+
+a{
+	 background-color: red;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 15px;
+	
+}
+
+font{
+	color:red;
+	font-size:14px;
+}
+
+h3{
+	color:#D74177;
+}
+
+h2{
+	color:#A890FE;
+}
+
+h1{
+color:red;
+}

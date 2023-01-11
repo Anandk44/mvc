@@ -1,0 +1,70 @@
+@charset "ISO-8859-1";
+
+body{
+	background-color:#BFF098;
+}
+
+table{
+	background-color:DarkSlateGray;
+	border-color:red;
+    border:"2";
+
+}
+
+font{
+	color:yellow;
+}
+
+
+h1{
+	color:rgb(255, 255, 255);
+}
+
+h2{
+	color:red;
+}
+
+h4{
+	color:red;
+}
+
+
+h6{
+	
+	color:red;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+button {
+  background-color: #ff8040;
+  color: white;
+  padding: 6px 13px;
+  font-size: 12px;
+}
+
+input[type=submit]{
+	 background-color: green;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 12px;
+}
+
+input[type=reset]{
+	 background-color: #ffa940;
+	 color: white;
+	 padding: 8px 88px;
+     font-size: 12px;
+}
+
+
+
+a{
+	 background-color: orange;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 15px;
+	
+}

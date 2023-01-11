@@ -1,0 +1,56 @@
+@charset "ISO-8859-1";
+
+body {
+
+
+
+  background-image: url('updt.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+table{
+	background-color:yellow;
+	border-color:red;
+    border:"2";
+
+}
+
+font{
+	color:white;
+}
+
+
+h1{
+	color:#008040;
+
+}
+
+h2{
+	color:red;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+}
+
+
+
+input[type=submit]{
+	 background-color: green;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 12px;
+}
+
+input[type=reset]{
+	 background-color: #ffa940;
+	 color: white;
+	 padding: 8px 88px;
+     font-size: 12px;
+}
+
+

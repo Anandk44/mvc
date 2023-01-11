@@ -1,0 +1,39 @@
+body {
+
+  background-image: url('tracking1.jpg');
+  
+  background-color: #5ca369;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+h2{
+	color:yellow;
+}
+
+h1{
+	color:white;
+}
+
+h3{
+	color:blue;
+}
+
+a{
+	 background-color: green;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 21px;
+	
+}
+
+
+input[type=reset]{
+	 background-color: purple;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 15px;
+}

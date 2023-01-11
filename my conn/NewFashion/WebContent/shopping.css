@@ -1,0 +1,22 @@
+body {
+
+  background-image: url('orderstatus.jpg');
+  
+  background-color: #5ca369;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+   
+font{
+   color:red;
+   }
+   
+button {
+  background-color: #ff8040;
+  color: white;
+  padding: 6px 13px;
+  font-size: 12px;
+}

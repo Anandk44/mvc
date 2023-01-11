@@ -1,0 +1,25 @@
+body {
+
+  background-image: url('buy1.jpg');
+  
+  background-color: #5ca369;
+ 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+   
+   
+h2{
+   
+color:red;
+}
+   
+   
+input[type=submit]{
+	 background-color: green;
+	 color: white;
+	 padding: 6px 70px;
+     font-size: 12px;
+}

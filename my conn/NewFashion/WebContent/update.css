@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+body {
+
+
+
+  background-image: url('updt.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+
+}
+
+table{
+	background-color:white;
+	border-color:red;
+    border:"1";
+
+}
+
+
+
+
+
+
+
+h1{
+	color:#800040;
+
+}
+
+h2{
+	color:red;
+}
+
+
+
+
+button {
+  background-color: #ff8040;
+  color: white;
+  padding: 6px 13px;
+  font-size: 12px;
+}
+
+input[type=submit]{
+	 background-color: green;
+	 color: white;
+	 padding: 8px 85px;
+     font-size: 12px;
+}
+
+input[type=reset]{
+	 background-color: #ffa940;
+	 color: white;
+	 padding: 8px 88px;
+     font-size: 12px;
+}
+
+
+
+
+font{
+	color:red;
+}
+
